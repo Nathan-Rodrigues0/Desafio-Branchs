@@ -1,2 +1,8 @@
 #criando metade de um loop para completar na outra branch
-print("Crinando")
+print("Criando")
+
+i = int(input("Digite um número: "))
+
+while i >= 10:
+    print()
+    break
