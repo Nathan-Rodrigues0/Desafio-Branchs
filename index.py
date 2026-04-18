@@ -6,3 +6,4 @@ i = int(input("Digite um número: "))
 while i >= 10:
     print()
     break
+
