@@ -1,13 +1,23 @@
-#criando metade de um loop para completar na outra branch
-print("Criando")
+print("Criando a segunda parte do código")
 
-i = (input("Digite um número: "))
+i = int(input("Digte um número de repetição: "))
+num = 2
 
-while i >= :
-    print()
-    print()
-    print()
-    
+while True:
+    print("Código feito")
+    print("Você conseguiu")
+    print("Parabéns")
+    if num <= i:
+        num += 1
+        continue
+    elif num > i :
+        print("Finalizado")
+        break
+    else:
+        print("Inacessível")
+        break
+
+
 
 
 
